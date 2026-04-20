@@ -10,8 +10,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "test": "vitest run",
-    "test:watchn    "lint": "esl
+    "test": "vitest run",": "vitest",
+    "lint": "eslint src/**/*.ts",
     "format": "prettier --write src/**/*.ts",
     "changeset": "changeset",
     "version": "tsx .github/changeset-version.ts",
