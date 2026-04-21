@@ -15,7 +15,7 @@
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write src/**/*.ts",
     "changeset": "changeset",
-    "versionchangeset-version.ts",
+    "version": "tsx .github/changeset-version.ts",
     "release": "tsx .github/changeset-publish.ts"
   },
   "keywords": [
